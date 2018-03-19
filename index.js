@@ -18,5 +18,6 @@ function destructivelyRemoveFirstDriver(name){
 }
 
 function appendDriver(name){
-  let newArr = [...drivers, name];
+  const newArr = [...drivers, name];
+  return newArr;
 }
