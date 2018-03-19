@@ -31,3 +31,8 @@ function removeLastDriver(){
   const newArr = drivers.slice(0,-1)
   return newArr
 }
+
+function removeFirstDriver(){
+  const newArr = drivers.slice(1)
+  return newArr
+}
